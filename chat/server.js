@@ -1,7 +1,7 @@
 const WebSocket = require("ws");
 const dotenv = require('dotenv').config();
 
-const server = new WebSocket.Server({ port: `${process.env.PORT}` }, () => {
+const server = new WebSocket.Server({ port: 3000 }, () => {
     console.log(`Chat has started`);
 });
 
