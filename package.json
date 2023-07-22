@@ -2,14 +2,18 @@
   "name": "web-socket",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Kamoliddin Xudoyberdiyev Zafar o'g'li",
+  "dev": "nodemon server.js",
+  "start": "node server.js",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
   }
 }
